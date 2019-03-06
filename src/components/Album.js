@@ -56,9 +56,9 @@ class Album extends Component {
 
   giveInfo(song, index) {
     if (this.state.currentSong === song && this.state.isPlaying === true) {
-      return <i class="icon ion-md-play"></i>;
-    } else if (this.state.currentSong === song && this.state.isPlaying === false) {
       return <i class="icon ion-md-pause"></i>;
+    } else if (this.state.currentSong === song && this.state.isPlaying === false) {
+      return <i class="icon ion-md-play"></i>;
     } else if (this.state.songHasMouseOver === song && this.state.hasMouseOver === true) {
       return <i class="icon ion-md-play"></i>;
     } else {
