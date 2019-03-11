@@ -1,7 +1,9 @@
+/*
 body {
   background-color: cornsilk;
 }
 
+*/
 .App {
   text-align: center;
 }
@@ -11,6 +13,7 @@ body {
   margin-right: auto;
 }
 
+/*
 #buttons{
   background-color: rgb(192, 214, 255);
   margin: 20px 0;
@@ -23,6 +26,7 @@ body {
   background-color: white;
   border: 1px solid black;
   outline: none;
+  cursor: pointer;
 }
 
 .btn  {
@@ -33,3 +37,8 @@ body {
   transform: scale(1.2);
   background-color: rgb(192, 214, 255);
 }
+
+#song-list {
+  cursor: pointer;
+}
+*/
