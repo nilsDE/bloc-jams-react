@@ -155,7 +155,7 @@ class Album extends Component {
                     onMouseEnter={() => this.mouseEnter(song)} onMouseLeave={() => this.mouseOut()}>
                   <td>{this.giveInfo(song, index)}</td>
                   <td>{song.title}</td>
-                  <td>{`${song.duration} seconds`}</td>
+                  <td>{`${this.formatTime(song.duration)} seconds`}</td>
                 </tr>
                )
              }
